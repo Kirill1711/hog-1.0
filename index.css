@@ -466,7 +466,13 @@ body {
     .main__ligth {
         width: 800px;
     }
-    .amima__pic {
+    .main__blog-body {
+        width: 300px;
+    }
+    .blog__body {
+        width: 250px;
+    }
+    .anima__pic {
         width: 65px;
     }
     .footer__menu-nav {
@@ -553,6 +559,9 @@ body {
     .footer__menu-socmedia {
         width: 100%;
     }
+    .nav__item_active{
+        pointer-events: all;
+    }
    }
 
 
@@ -596,7 +605,7 @@ body {
     }
 
     .nav__item_active {
-        pointer-events: none;
+        pointer-events: all;
         border: #478BF9 2px solid;
         padding: 1rem;
         border-radius: 24px;
@@ -672,6 +681,17 @@ body {
         margin: auto;
     }
 
+   }
+   
+   @media screen and (max-width: 550px) {
+        .background_title-left {
+            background-image: url(./img/DotLight-left-mob.svg);
+            left: -5rem;
+            top: -30rem;
+        }
+        .socmedia-text {
+            margin-left: 3rem;
+        }
    }
 
    @media screen and (max-width: 500px) {
